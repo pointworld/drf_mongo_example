@@ -35,7 +35,7 @@ DB_MONGO_PORT = 27017
 connect(DB_MONGO_NAME, host=DB_MONGO_HOST, port=DB_MONGO_PORT)
 ```
 
-### 新建一个 app: mongo
+### 新建一个 app: polls
 
 ```bash
 python manage.py startapp polls
